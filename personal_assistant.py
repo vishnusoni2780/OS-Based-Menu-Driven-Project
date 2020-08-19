@@ -2,14 +2,16 @@ import pyttsx3 as pys
 import os
 #pys.speak("welcome to IIEC RISE Community.")
 print("\n\t \t >>> : Welcome to 'IIEC RISE' Community : <<<")
+pys.speak("welcome to my tool, which is an OS Based program into Menu Driven using Python")
 print("\n\t>>> : An OS Based program into Menu Driven using Python : <<<")
 print("\t-------------------------------------------------------------")
-pys.speak("welcome to my tool, which is an OS Based program into Menu Driven using Python")
 print("")
 pys.speak("Tell me your Requirement, i'm here for u.")
+
 while True:
 	print(">>> Tell me your Requirement: ",end='')
 	choice=input()
+	
 	if (("run" in choice) or ("execute" in choice)) or (("start" in choice) or ("open" in choice)):
 		pys.speak("Okay, i'm launching it for you.")
 		
@@ -52,11 +54,24 @@ while True:
 		elif "xampp" in choice:
 			os.system("start xampp-control")
 	
-	elif (("exit" in choice) or ("stop" in choice)) or (("done" in choice) or ("out" in choice)):
+	elif (("exit" in choice) or ("stop" in choice) or ("quit" in choice)) or (("done" in choice) or ("out" in choice)):
 		break
-	
+	elif ("thank you" in choice) or ("thanks" in choice):
+		pys.speak("it's my job.")
+		print("\t\t > It's My Job ;)")
+		pys.speak("want something else from me to do.")
+		print("\n\t\t > want something else from me to do.\n\t\t[+] Tell me [y/n]: ",end='')
+		fur=input()
+		if fur=="Y" or fur=="y":
+			continue
+		elif fur=="N" or fur=="n":
+			break
+		else:
+			pys.speak("Okay, i'm assuming you want me to do more.")
+			print("\n\t\t > Okay, i'm assuming you want me to do more.")
 	else:
 		pys.speak("Sorry, i'm not getting your point.")
 		print("\t\tSorry, i'm not getting your point.")
-print("\t\t > Thank You :)")
+
+print("\t\t\n > Thank You :)")
 pys.speak("Thank you for using it. Have a good day.")
