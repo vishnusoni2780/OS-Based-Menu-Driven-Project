@@ -23,6 +23,7 @@ This time you have to command it in Yes or No format ('Y','y','N','n').
 When you quit this , it will speak up to you with a greeting message and say thank you for using it.
  ---
 You can see the attached video, in which each and every steps are recorded about what it can do or doing.
+here is the link of my link:		https://www.linkedin.com/posts/vishnu-soni-6baa1419b_objective-iiec-iiecabrrise-activity-6701799533510225920-fOLn
 For execution purpose, i wrote a list of task in notepad that is showing there in video.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
