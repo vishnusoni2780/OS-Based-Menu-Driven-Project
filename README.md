@@ -1,5 +1,3 @@
-# python_codes
-
 Hello guys, 
 this an OS based menu driven python program which is a part of IIEC RISE Community under training of Specialization in Python.
 ---
